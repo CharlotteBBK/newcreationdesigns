@@ -1,10 +1,3 @@
-/*
-
-TemplateMo 546 Sixteen Clothing
-
-https://templatemo.com/tm-546-sixteen-clothing
-
-*/
 body {
 	font-family: 'Poppins', sans-serif;
 	overflow-x: hidden;
@@ -97,15 +90,17 @@ a.filled-button:hover {
 }
 
 .products-heading {
-	background-image: url(../images/products-heading.jpg);
+	background-image: url(../images/flowerpots/flowerpot\ 2.jpeg);
 }
 
 .about-heading {
-	background-image: url(../images/about-heading.jpg);
+
+	background-image: url(../images/flowerpots/flowerpot\ 5.jpeg);
+
 }
 
 .contact-heading {
-	background-image: url(../images/contact-heading.jpg);
+	background-image: url(../images/flowerpots/flowerpot\ 6.jpeg);
 }
 
 .page-heading {
@@ -346,12 +341,12 @@ header .navbar {
 }
 
 .banner-item-01 {
-	/* padding-top: 50px;
+	padding-top: 50px;
 	padding-right: 30px;
 	padding-bottom: 50px;
-	padding-left: 80px; */
+	padding-left: 80px;
 	padding: 100px 50px;
-	/* background-image: url(../images/Logo.png); */
+	background-image: url(../images/website\ logo.png.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -360,20 +355,170 @@ header .navbar {
 
 
 .banner-item-02 {
-	padding: 300px 0px;
-	background-image: url(../images/slide_02.jpg);
+	padding: 30px 0px;
+	/* background-image: url(../images/logo_transparent.png); */
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
 }
 
+
 .banner-item-03 {
+	visibility: inherit;
+	opacity: 1;
+	background-color: rgba(0, 0, 0, 0);
+	background-repeat: no-repeat;
+	background-image: url(https://www.harthowerton.com/wp-content/uploads/2016/07/Sea-Island-Slider-1920x1325-Home-page.jpg);
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	z-index: 20;
+	height: 100%;
+
+}
+
+
+* {
+	box-sizing: border-box
+}
+
+/* Slideshow container
+.slideshow-container {
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+	visibility: inherit;
 	padding: 300px 0px;
-	background-image: url(../images/slide_03.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+
+}
+
+
+.mySlides {
+	display: none;
+}
+
+
+.prev,
+.next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+
+
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover,
+.next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.text {
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+}
+
+
+.numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+
+
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+	background-color: #717171;
+}
+
+
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+} */
+
+
+/* .mySlides {
+	display: none;
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+	visibility: inherit;
+	padding: 300px 0px;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
 }
+
+.w3-left,
+.w3-right,
+.w3-badge {
+	cursor: pointer
+}
+
+.w3-badge {
+	height: 13px;
+	width: 13px;
+	padding: 0
+} */
+
+@-webkit-keyframes fade {
+	from {
+		opacity: .4
+	}
+
+	to {
+		opacity: 1
+	}
+}
+
+@keyframes fade {
+	from {
+		opacity: .4
+	}
+
+	to {
+		opacity: 1
+	}
+}
+
 
 .banner .banner-item {
 	max-height: 600px;
@@ -675,20 +820,26 @@ footer .inner-content p a {
 	color: #f33f3f;
 }
 
+/* 
 .products ul.pages {
-	margin-top: 30px;
+	margin-top: 50px;
 	text-align: center;
-}
+} */
+
+
 
 .products ul.pages li {
 	display: inline-block;
 	margin: 0px 2px;
 }
 
+
+
 .products ul.pages li a {
 	width: 44px;
 	height: 44px;
 	display: inline-block;
+	/* display: flex; */
 	line-height: 42px;
 	border: 1px solid #eee;
 	font-size: 15px;
