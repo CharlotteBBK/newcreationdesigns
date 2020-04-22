@@ -78,6 +78,7 @@ a.filled-button:hover {
 
 .section-heading {
 	text-align: left;
+	/* text-align: center; */
 	margin-bottom: 60px;
 	border-bottom: 1px solid #eee;
 }
@@ -237,6 +238,14 @@ header .navbar {
 	background-color: #fff !important;
 	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
 }
+
+.phone-icon {
+	width: 16px;
+	height: 16px;
+}
+
+
+
 
 .background-header .navbar-brand h2 {
 	color: #121212 !important;
@@ -533,7 +542,8 @@ header .navbar {
 }
 
 .banner .text-content h4 {
-	color: #f33f3f;
+	/* color: #f33f3f; */
+	color: #000000;
 	font-size: 22px;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -650,9 +660,6 @@ header .navbar {
 	color: #f33f3f;
 	font-weight: 500;
 }
-
-
-
 
 /* Best Features */
 
